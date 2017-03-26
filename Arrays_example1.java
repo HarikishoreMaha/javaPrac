@@ -16,7 +16,8 @@ public class Arrays_example1 {
 		default elements in new array except
 		last one
 		*/
-		int[] a = {1,2,3,4,5};
+		
+		int[] a = {1,2,3,4,5,6};
 			
 		int[] b= new int[a.length*2];
 		for (int i = 0; i < b.length-1; i++) {
