@@ -15,6 +15,8 @@ public class Alphabts_count_in_sentence {
 		Set<String> uniqueWords= new HashSet<String>(list);
 		for (String letter : uniqueWords) {
 			System.out.print(Collections.frequency(list, letter));
+			
+			System.out.print("want to commit this to repository");
 		}
 	}
 
